@@ -1,0 +1,7 @@
+Switch/router'dan konfigürasyon alýnarak txt dosyasýna kaydedilir. Bu txt dosyasý py uzantýlý dosyaya girdi olarak verilecektir.
+Switch için aþaðýdaki komut çalýþtýrýlýr.
+	>>cisco_switch_router_hardening_test.py konfig_file.txt switch
+Router için aþaðýdaki komut çalýþtýrýlýr.
+	>>cisco_switch_router_hardening_test.py konfig_file.txt router
+Program SonucRaporu.txt isimli dosyayý üretir. 
+Sonuç raporunda açýklamalar ve sýkýlaþtýrma puaný kullanýcýya gösterilir. Sýkýlaþtýrma puaný 100 üzerindendir.

@@ -1,0 +1,11 @@
+Konsol parolasi eklenmis
+Uzaktan yonetim parolasi eklenmis
+Parolalar sifrelenmis
+Enable parolasi eklenmis
+Zaman asimi uygulanmis
+SSH aktif edilmis
+
+
+Port security uygulanmamis
+Banner eklenmemis
+CIHAZ DEGERLENDIRME SONUCU:	75.0
