@@ -147,12 +147,6 @@ Yetkisiz kişilerin cihazın yakınına gelip konsol bağlantısı ile cihaza er
 
 **Router(config-line): login**
 
-##Ağ Cihazları Sıkılaştırmalarının Kontrol Edilmesi##
-Yukarıda anlatılan sıkılaştırma önlemleri güvenlik konusu göz önünde bulundurulduğunda kullanılan tüm ağ cihazlarına  uygulanması gereken kurallardır. Konfigürasyonu var olan bir ağ cihazının sıkılaştırılma derecesini gözlemlemek ve eksikliklerini kullanıcıya bildirmek amacıyla bir ptyhon scripti hazırlanmıştır. Bu ptyhon scripti ekte sunulmaktadır. 
-Python scripti sıkılaştırma kurallarına cihazı denetleyecektir. Bu scriptte girdi olarak ağ cihazının switch mi router mı olduğu, ve ağ cihazının konfigürasyon dosyası girdi olarak verilecektir. Script de çıktı olarak kullanıcıya bir rapor üretecektir. Bu raporda  denetim maddelerinin kaç tanesinden geçtiği ve denetim sonucunun skoru kullanıcıya iletilecektir. 
-Script’in örnek çalışma durumu:
-**>>Cisco_switch_router_hardening_test.py switch_konfig_dosyasi.txt switch**
-
 
 Kullanıcı password yazan yere kendi belirlediği bir parolayı koymalıdır.
 
@@ -208,6 +202,13 @@ Tüm cihaz ve uygulamalarda olduğu gibi cisco routerlarında da zaman aşımı 
 
 Value, ağ yöneticisinin belirleyeceği birimi saniye olan zaman aşımı süresidir. 
  
+ 
+##Ağ Cihazları Sıkılaştırmalarının Kontrol Edilmesi##
+Yukarıda anlatılan sıkılaştırma önlemleri güvenlik konusu göz önünde bulundurulduğunda kullanılan tüm ağ cihazlarına  uygulanması gereken kurallardır. Konfigürasyonu var olan bir ağ cihazının sıkılaştırılma derecesini gözlemlemek ve eksikliklerini kullanıcıya bildirmek amacıyla bir ptyhon scripti hazırlanmıştır. Bu ptyhon scripti ekte sunulmaktadır. 
+Python scripti sıkılaştırma kurallarına cihazı denetleyecektir. Bu scriptte girdi olarak ağ cihazının switch mi router mı olduğu, ve ağ cihazının konfigürasyon dosyası girdi olarak verilecektir. Script de çıktı olarak kullanıcıya bir rapor üretecektir. Bu raporda  denetim maddelerinin kaç tanesinden geçtiği ve denetim sonucunun skoru kullanıcıya iletilecektir. 
+Script’in örnek çalışma durumu:
+**>>Cisco_switch_router_hardening_test.py switch_konfig_dosyasi.txt switch**
+
 
  
 #Referanslar#
